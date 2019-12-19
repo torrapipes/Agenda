@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url("img/background.jpg");
+}
+
+
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+form {
+    background: white;
+    box-shadow: 5px 10px black;
+    border-radius: 1rem;
+    width: 20rem;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+}
+.divInputs label {
+    margin-bottom: .5rem;
+}
+form label {
+    font-weight: bold;
+}
+input[type = text] {
+    border-width: 0 0 1px 0;
+    border-color: black;
+}
+input[type = submit]{
+    margin: 1rem;
+    border: 1px solid mediumpurple;
+    background: mediumpurple;
+    border-radius: 1rem;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 1rem;
+    transition-duration: 1s;
+}
+input[type=submit]:hover{
+    border: 1px solid mediumpurple;
+    color: black;
+    cursor: pointer;
+    box-shadow: 4px 6px black;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+table{
+    align-self: center;
+    font-family: 'Roboto Slab', serif;
+}
+th{
+    text-align: left;
+    width: 10%;
+}
+
+h1 {
+    margin-bottom: 4rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+#contactes {
+    background: white;
+    box-shadow: 5px 10px black;
+    border-radius: 1rem;
+    width: 23rem;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-around;
+}
