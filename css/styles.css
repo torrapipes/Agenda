@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     margin-top: 50px;
-    background-image: url("img/background.jpg");
+    background-image: url("../img/background.jpg");
 }
 
-
-h1{
+h1 {
     font-family: 'Roboto Slab', serif;
 }
+
 form {
     background: white;
     box-shadow: 5px 10px black;
@@ -19,23 +19,28 @@ form {
     display: flex;
     flex-direction: column;
 }
+
 .divInputs {
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 1rem;
 }
+
 .divInputs label {
     margin-bottom: .5rem;
 }
+
 form label {
     font-weight: bold;
 }
-input[type = text] {
+
+input[type=text] {
     border-width: 0 0 1px 0;
     border-color: black;
 }
-input[type = submit]{
+
+input[type=submit] {
     margin: 1rem;
     border: 1px solid mediumpurple;
     background: mediumpurple;
@@ -45,7 +50,8 @@ input[type = submit]{
     font-size: 1rem;
     transition-duration: 1s;
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
     border: 1px solid mediumpurple;
     color: black;
     cursor: pointer;
@@ -53,11 +59,13 @@ input[type=submit]:hover{
     transform: scale(1.1);
     transition-duration: 1s;
 }
-table{
+
+table {
     align-self: center;
     font-family: 'Roboto Slab', serif;
 }
-th{
+
+th {
     text-align: left;
     width: 10%;
 }
@@ -65,6 +73,7 @@ th{
 h1 {
     margin-bottom: 4rem;
 }
+
 h4 {
     font-size: 1.5rem;
 }
@@ -78,7 +87,6 @@ tr:nth-child(even) {
     flex-direction: column;
     margin: 0;
 }
-
 
 #contactes {
     background: white;

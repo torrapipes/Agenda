@@ -4,8 +4,8 @@
  * a base de dades a través de PDO.
  */
 
-include_once 'database.php';
-include_once 'agenda.php';
+include_once 'classes/database.php';
+include_once 'classes/agenda.php';
 
 // ens connectam a base de dades
 $db = Database::getConnection();
@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
 <!-- Formulari agenda -->
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
