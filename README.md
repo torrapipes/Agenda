@@ -1,5 +1,5 @@
 # Agenda PHP
-Agenda que permet les operacions bàsiques amb CRUD:
+Agenda feta amb PHP que permet les operacions bàsiques amb CRUD a través de PDO:
 
 - Per crear un nou contacte s'insereix nom i telèfon
 - Per actualitzar un contacte s'insereix el nom del contacte a actualitzar i el telèfon nou
