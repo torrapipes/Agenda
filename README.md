@@ -1,4 +1,4 @@
-# Agenda PHP
+# Agenda
 Agenda feta amb PHP que permet les operacions bàsiques amb CRUD a través de PDO:
 
 - Per crear un nou contacte s'insereix nom i telèfon
